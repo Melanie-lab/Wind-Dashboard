@@ -1,0 +1,29 @@
+@import "../../var.module.scss";
+
+div.records {
+  display: flex;
+  justify-content: space-between;
+  margin: auto 2rem;
+}
+
+div.records p {
+  margin: 0.2rem 0;
+}
+
+.data {
+  font-size: 24px;
+  font-family: "Oswald", sans-serif;
+}
+
+.unit {
+  font-family: "Oswald", sans-serif;
+}
+
+.date {
+  margin: 0.5rem auto 0.2rem 2rem;
+}
+
+.display {
+  padding: 0.2rem;
+  background-color: map-get($colors, light-grey);
+}

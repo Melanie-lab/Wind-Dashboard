@@ -1,0 +1,41 @@
+@import "../../var.module.scss";
+
+div.akkord {
+  border: 0.1px solid map-get($colors, main-black);
+}
+
+div.btngroup {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 1.5rem;
+}
+
+.btngroup button {
+  background-color: inherit;
+  margin: 0.2rem;
+}
+
+button:focus {
+  background-color: map-get($colors, main-red);
+}
+
+.akkord_active {
+  display: flex;
+  justify-content: space-between;
+  margin: 0.3rem auto;
+}
+
+.akkord h3 {
+  margin: 0 auto 0 2rem;
+}
+
+button.expand {
+  margin-right: 1rem;
+  height: 10px;
+  width: 35px;
+  border-style: none;
+  background-color: inherit;
+  background-image: url("./moewe.png");
+  background-size: cover;
+  align-self: center;
+}

@@ -1,0 +1,12 @@
+@import "../var.module.scss";
+
+header {
+  width: 100vw;
+  height: 50px;
+  color: map-get($colors, main-white);
+  background-color: map-get($colors, main1);
+}
+
+main {
+  background-color: map-get($colors, main-white);
+}
